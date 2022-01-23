@@ -7,11 +7,12 @@ import { MarkdownParserService } from './markdown-parser.service';
   providers: [ MarkdownParserService]
 })
 export class AppComponent {
-  convertedtext = 'string';
+  convertedText!: string;
+
   constructor(
     private md: MarkdownParserService){
   }
   updateOutput(mdText:string){
-    this.convertedtext = this.md.convert(mdText);
+    this.convertedText = this.md.convert(mdText);
   }
 }

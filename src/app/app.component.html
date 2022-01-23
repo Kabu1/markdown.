@@ -2,13 +2,12 @@
   <div class="row">
     <div class="col-md-6 col-lg-6">
       <h5>MarkDown</h5>
-      <textarea name="markdown" id="markdown-area" cols="" rows="30" placeholder="enter your markdown here"></textarea>
+      <textarea name="markdown" id="markdown-area" cols="" rows="30" placeholder="enter your markdown here" (keyup)="updateOutput($event.target.value)"></textarea>
     </div>
     <div class="col-md-6 col-lg-6">
       <h5>Output</h5>
       <!-- converted markdown will display here -->
-      <!-- <div [innerHtml]="convertedText"></div> -->
-      <div ng-bind-html="convertedText"></div>
+      <div [innerHtml]="convertedText"></div>
     </div>
   </div>
 </div>
