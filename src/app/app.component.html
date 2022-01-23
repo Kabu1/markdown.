@@ -1,13 +1,23 @@
+
+  <nav class="navbar navbar-dark bg-dark">
+  <!-- Navbar content -->
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">MarkDown Previewer</a>
+  </div>
+</nav>
+
 <div class="container">
   <div class="row">
-    <div class="col-md-6 col-lg-6">
+    <div class="col-5">
       <h5>MarkDown</h5>
       <textarea name="markdown" id="markdown-area" cols="" rows="30" placeholder="enter your markdown here" (keyup)="updateOutput($event.target.value)"></textarea>
     </div>
-    <div class="col-md-6 col-lg-6">
+
+    <div class="col-5">
       <h5>Output</h5>
       <!-- converted markdown will display here -->
       <div [innerHtml]="convertedText"></div>
     </div>
   </div>
 </div>
+

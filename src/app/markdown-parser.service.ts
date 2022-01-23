@@ -17,7 +17,7 @@ private md: any;
       //   const language = hljs.getLanguage(lang) ? lang : 'plaintext';
       //   return hljs.highlight(code, { language }).value;
       // },
-      // langPrefix: 'hljs language-', // highlight.js css expects a top-level 'hljs' class.
+      langPrefix: 'hljs language-', // highlight.js css expects a top-level 'hljs' class.
       pedantic: false,
       gfm: true,
       breaks: false,
