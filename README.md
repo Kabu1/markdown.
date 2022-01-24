@@ -1,27 +1,37 @@
-# Mackdown
-
+# Description
+A simple markdown editor with an instant preview and HTML code view. The idea was to have a very simple webapp with two views where the Markdown is entered on the left-hand side and the HTML output is instantly rendered on the right-hand side. So everybody can easily learn Markdown!
+I tested this in Chrome and Firefox. I kept the implementation very basic, basically all input is converted after every keypress.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
-## Development server
+## SetUp/Installation
+To run this application:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+$  copy-text-to-clipboard git clone https://github.com/Kabu1/markdown. </copy-button>git clone this repository.
 
-## Code scaffolding
+Then run the following in the root of the cloned repository:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+$ npm install
+// This will install the application dependencies
 
-## Build
+$ npm start
+After the server is running, visit http://localhost:4200 in your browser.
+The app will automatically reload if you change any of the source files.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Specifications
+| Behavior        | Input           | Outcome  |
+| ------------- |:-------------:| -----:|
+| Type your markdown text | character : <br/>  text : | Html output generated |
 
-## Running unit tests
+#### Technologies Used
+1. Angular 13.1.2
+2. marked 4.0.10 
+3. Bootstrap 5
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+ 
+ ### LICENSE
+ MIT (c) 2020 **[Kabu1](https://github.com/Kabu1)**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Thanks for Installing
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+    Conatct me for any suggestion/issues -> bensonmk99@gmail.com
