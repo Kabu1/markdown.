@@ -22,7 +22,7 @@ The app will automatically reload if you change any of the source files.
 | ------------- |:-------------:| -----:|
 | Type your markdown text | character : <br/>  text : | Html output generated |
 
-#### Technologies Used
+## Technologies Used
 1. Angular 13.1.2
 2. marked 4.0.10 
 3. Bootstrap 5
